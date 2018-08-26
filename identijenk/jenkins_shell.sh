@@ -37,4 +37,4 @@ fi
 sudo docker-compose $COMPOSE_ARGS stop
 sudo docker-compose $COMPOSE_ARGS rm --force -v
 
-return $ERR
+echo "Script returns" $ERR
