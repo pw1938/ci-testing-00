@@ -13,7 +13,7 @@ sudo docker-compose $COMPOSE_ARGS build #--no-cache
 sudo docker-compose $COMPOSE_ARGS up -d
 
 #Run unit tests
-sudo docker-compose $COMPOSE_ARGS run --no-deps --rm -e ENV=UNIT identidock
+sudo docker-compose $COMPOSE_ARGS run --no-deps --rm -e ENV=UNIT identidock-00
 ERR=$?
 
 #Run system test if unit tests passed
