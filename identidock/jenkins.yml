@@ -1,4 +1,4 @@
-identidock:
+identidock-00:
   build: .
   expose:
     - "9090"
