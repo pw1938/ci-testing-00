@@ -11,4 +11,4 @@ COPY cmd.sh /
 EXPOSE 9090 9191
 USER uwsgi
 
-CMD ["/bin/bash /cmd.sh"]
+CMD ["/cmd.sh"]
