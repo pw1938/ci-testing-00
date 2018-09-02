@@ -1,4 +1,4 @@
-identidock-00:
+identidock:
   build: .
   ports:
    - "5000:5000"
